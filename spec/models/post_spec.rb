@@ -9,7 +9,7 @@ describe Post do
             name: 'post',
             content: 'post',
             tags_attributes: [
-              {}
+              
             ]
           )
         }.not_to change(Tag, :count)
